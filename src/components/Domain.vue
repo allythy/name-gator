@@ -4,7 +4,7 @@
     <div class="card">
       <div class="card-boy">
         <ul class="list-group">
-          <li class="list-group-item" v-for="domain in domains" v-bind:key="domain">
+          <li class="list-group-item" v-for="domain in domains" :key="domain">
             {{ domain }}
           </li>
         </ul>
@@ -27,7 +27,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>
