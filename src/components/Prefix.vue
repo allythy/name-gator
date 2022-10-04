@@ -4,7 +4,7 @@
     <div class="card">
       <div class="card-body">
         <ul class="list-group">
-          <li class="list-group-item" v-for="prefix in prefixes" v-bind:key="prefix">
+          <li class="list-group-item" v-for="prefix in prefixes" :key="prefix">
             {{ prefix }}
           </li>
         </ul>
@@ -43,7 +43,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

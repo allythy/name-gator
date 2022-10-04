@@ -18,8 +18,6 @@
 </template>
 
 <script>
-import "bootstrap/dist/css/bootstrap.css"
-import "font-awesome/css/font-awesome.css"
 import Prefix from "./components/Prefix";
 import Sufix from "./components/Sufix";
 import Domain from "./components/Domain";

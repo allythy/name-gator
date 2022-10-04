@@ -1,3 +1,4 @@
+![NameGator Vue](src/assets/logo.png "NameGator Vue")
 # NameGator
 
 ## Project setup
